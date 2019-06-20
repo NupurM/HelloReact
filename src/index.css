@@ -1,5 +1,27 @@
 body{
-    padding: 0 5%;
+    margin: 0;
     background-color: black;
     color: darkgray;
+}
+
+header, footer{
+    height: 100px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    margin-bottom: 15px;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+main{
+    padding: 0 5%;
 }
