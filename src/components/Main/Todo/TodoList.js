@@ -3,20 +3,26 @@ import TodoItem from './TodoItem';
 
 function TodoList() {
     return (
-        <div>
-            <input type="checkbox" />
-            <span>Eat lunch</span><br />
+        <div className="todo-list">
+            <div className="todo-item">
+                <input type="checkbox" />
+                <span>Eat lunch</span>
+            </div>
 
-            <input type="checkbox" />
-            <span>Clean table</span><br />
+            <div className="todo-item">
+                <input type="checkbox" />
+                <span>Clean table</span>
+            </div>
 
-            <input type="checkbox" />
-            <span>Clean bedroom</span><br />
+            <div className="todo-item">
+                <input type="checkbox" />
+                <span>Clean bedroom</span>
+            </div >
 
             <TodoItem />
             <TodoItem />
             <TodoItem />
-        </div>
+        </div >
     );
 }
 

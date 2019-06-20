@@ -3,7 +3,8 @@ import TodoList from './Todo/TodoList';
 
 function MainContent(){
     return(
-        <main>This is my main content
+        <main>
+            <h2>Today's tasks:</h2>
             <TodoList />
         </main>
     );
