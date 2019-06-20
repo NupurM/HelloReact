@@ -1,4 +1,5 @@
 import React from 'react';
+import TodoItem from './TodoItem';
 
 function TodoList() {
     return (
@@ -11,6 +12,10 @@ function TodoList() {
 
             <input type="checkbox" />
             <span>Clean bedroom</span><br />
+
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
         </div>
     );
 }
