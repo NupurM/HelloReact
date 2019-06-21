@@ -57,3 +57,9 @@ input[type="checkbox"] {
     transform: scale(2);
     margin: 15px;
 }
+
+.checked{
+  font-style: italic;
+  color: darkgray;
+  text-decoration: line-through;
+}
