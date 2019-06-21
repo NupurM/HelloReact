@@ -1,10 +1,12 @@
 import React from 'react';
 import Greeting from './Greeting';
 
-function Footer() {
+class Footer extends React.Component {
+  render() {
     return (
-        <footer><Greeting /></footer>
+      <footer><Greeting /></footer>
     );
+  }
 }
 
 export default Footer;
