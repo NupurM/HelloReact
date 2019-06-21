@@ -15,7 +15,7 @@ class Greeting extends React.Component {
     if (hours >= 16 && hours < 20) {
       timeOfDay = "evening";
     }
-    if (hours < 5 && hours >= 20) {
+    if (hours < 5 || hours >= 20) {
       timeOfDay = "night";
     }
 
