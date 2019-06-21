@@ -1,20 +1,24 @@
 const TodoData = [
   {
-    key: 1,
-    task: "Eat lunch"
+    id: 1,
+    task: "Eat lunch",
+    completed: true
   },
   {
-    key: 2,
-    task: "Clean the table"
+    id: 2,
+    task: "Clean the table",
+    completed: false
   },
   {
-    key: 3,
-    task: "Clean my room"
-  },
+    id: 3,
+    task: "Clean my room",
+    completed: false
+ },
   {
-    key: 4,
-    task: "Start learning react"
-  },
+    id: 4,
+    task: "Start learning react",
+    completed: true
+ },
 ];
 
 export default TodoData;
