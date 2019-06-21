@@ -1,12 +1,12 @@
 const TodoData = [
   {
     id: 1,
-    task: "Eat lunch",
+    task: "Make Lasagna",
     completed: true
   },
   {
     id: 2,
-    task: "Clean the table",
+    task: "Apply for jobs",
     completed: false
   },
   {
@@ -16,7 +16,7 @@ const TodoData = [
  },
   {
     id: 4,
-    task: "Start learning react",
+    task: "Start learning React",
     completed: true
  },
 ];

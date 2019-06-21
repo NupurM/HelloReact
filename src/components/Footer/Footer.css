@@ -1,10 +1,9 @@
 footer {
   height: 100px;
-  color: whitesmoke;
-  margin-top: 15px;
-  text-align: center;
-  font-size: 30px;
+  margin-top: 25px;
+  font-size: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

@@ -13,9 +13,7 @@ class TodoList extends React.Component {
   }
 
   handleChange(id) {
-    console.log("I was clicked and changed" + id);
     this.setState(prevState => {
-      console.log(prevState);
       const updatedTodos = prevState.todos.map(
         todo => {
           if (todo.id === id) {
@@ -33,7 +31,7 @@ class TodoList extends React.Component {
 
     return (
       <div className="todo-list">
-        <h2><u>Today's List</u></h2>
+        <h1><u>Today's List</u></h1>
         {myTasks}
       </div>
     );

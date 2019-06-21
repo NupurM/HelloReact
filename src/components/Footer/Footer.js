@@ -5,7 +5,10 @@ import './Footer.css';
 class Footer extends React.Component {
   render() {
     return (
-      <footer><Greeting /></footer>
+      <footer>
+        <Greeting />
+        <p>Thanks Bob Ziroll for helping me learn React!</p>
+      </footer>
     );
   }
 }

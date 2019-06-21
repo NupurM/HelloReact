@@ -1,5 +1,6 @@
 .todo-list {
   background-color: white;
+  color: #333;
   margin: auto;
   width: 50%;
   display: flex;
@@ -15,18 +16,20 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   width: 70%;
-  border-bottom: 1px solid #cecece;
+  border-radius: 5px;
   font-family: Roboto, sans-serif;
   font-weight: 100;
-  font-size: 15px;
-  color: #333;
+}
+
+.todo-item:hover {
+  background-color: #f3f3f3;
 }
 
 input[type="checkbox"] {
-  transform: scale(2);
-  margin: 15px;
+  transform: scale(2.5);
+  margin: 20px;
 }
 
 .checked {
