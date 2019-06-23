@@ -5,7 +5,7 @@ My first React + Materialize application
 ![Portrait View](/src/assets/screenshots/portrait.JPG)
 
 ## Landscape View
-![Landscape View](../public/landscape.png)
+![Landscape View](/src/assets/screenshots/landscape.png)
 
 ## Deployment
 This project is deployed and hosted on [Azure](https://nupurs-react-demo.azurewebsites.net/)
