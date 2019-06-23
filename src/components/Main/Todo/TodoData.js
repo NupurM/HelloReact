@@ -19,6 +19,11 @@ const TodoData = [
     task: "Start learning React",
     completed: true
   },
+  {
+    id: 5,
+    task: "Style with Materialize.css",
+    completed: true
+  },
 ];
 
 export default TodoData;

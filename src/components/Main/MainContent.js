@@ -4,7 +4,7 @@ import TodoList from './Todo/TodoList';
 class MainContent extends React.Component {
   render() {
     return (
-      <main>
+      <main className="row">
         <TodoList />
       </main>
     );

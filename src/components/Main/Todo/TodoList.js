@@ -30,8 +30,10 @@ class TodoList extends React.Component {
     const myTasks = this.state.todos.map(item => <TodoItem key={item.id} todo={item} handleChange={this.handleChange} />)
 
     return (
-      <div className="todo-list">
-        <h1><u>Today's List</u></h1>
+      <div className="todo-list col s12 m6 offset-m3 l4 offset-l4 white layers">
+        <h4 className="row teal-text center-align">
+          <u className="col s12">Today's Tasks</u>
+        </h4>
         {myTasks}
       </div>
     );

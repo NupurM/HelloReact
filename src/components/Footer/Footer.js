@@ -1,13 +1,12 @@
 import React from 'react';
 import Greeting from './Greeting';
-import './Footer.css';
 
 class Footer extends React.Component {
   render() {
     return (
-      <footer>
+      <footer className="row center-align">
         <Greeting />
-        <p>Thanks Bob Ziroll for helping me learn React!</p>
+        <h6 className="col s12">And thanks Bob Ziroll for helping me to learn React!</h6>
       </footer>
     );
   }

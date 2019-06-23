@@ -20,7 +20,7 @@ class Greeting extends React.Component {
     }
 
     return (
-      <div>Have a good {timeOfDay}!</div>
+      <h5 className="col s12">Have a good {timeOfDay}.</h5>
     );
   }
 }

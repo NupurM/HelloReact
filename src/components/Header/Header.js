@@ -1,5 +1,4 @@
 import React from 'react';
-import './Header.css';
 
 class Header extends React.Component {
   render() {
@@ -7,8 +6,9 @@ class Header extends React.Component {
     const lastname = 'Maheshwari';
 
     return (
-      <header className="navbar">
-        <div>{firstname + ' ' + lastname} Presents:</div>
+      <header className="row center-align ">
+        <h4 className="col s12 hide-on-small-only">{firstname + ' ' + lastname} Presents:</h4>
+        <h5 className="col s12 hide-on-med-and-up">{firstname + ' ' + lastname} Presents:</h5>
       </header>
     );
   }
