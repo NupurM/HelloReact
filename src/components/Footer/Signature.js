@@ -10,14 +10,16 @@ class Signature extends React.Component {
         <a href="https://www.linkedin.com/in/nupur-maheshwari/"
           title="Connect with me on LinkedIn"
           target="_blank"
+          rel="noopener noreferrer"
           className="teal-text">
-          <i class="fa fa-linkedin-square"></i>
+          <i className="fa fa-linkedin-square"></i>
         </a>
         <a href="https://github.com/NupurM/HelloReact"
           title="See the source code on GitHub"
           target="_blank"
+          rel="noopener noreferrer"
           className="teal-text">
-          <i class="fa fa-github"></i>
+          <i className="fa fa-github"></i>
         </a>
       </div>
     );
